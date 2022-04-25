@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: ghostwhite;
+    color: black;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;    
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.headertext {
+  font-family: 'Cormorant SC', serif;
+  text-transform:uppercase;
+  text-shadow: 2px 2px black;
+
+}
+
+.article {
+  overflow: hidden;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+img {
+  max-width: 500px;
+  padding-left: 10px;
+}
+
+.middle {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 75%;
+}
+
+.imgvert{
+  max-height: 500px;
+  float: left;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-right: 2px solid black;
+}
+
+.imghor{
+  max-width: 500px;
+  float: left;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-right: 2px solid black;
+  clear: both;
+}
+
+.imghorRight{
+  max-width: 500px;
+  float: right;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-right: 2px solid black;
+  clear: both;
+}
+
+td a {
+  color:#222629;
+}
+
+.cardmax {
+  max-width: 30%;
+}
+
+/*Rules for History Page*/
+table, th, td {
+  border: 2px solid black;
+  padding: 17px;
+}
+
+thead {
+  background-color: #222629;
+  color: ghostwhite;
+}
+
+table {
+  width: 100%;
+  margin:15px auto;
+  overflow:hidden:
+}
+
+tbody{
+  color:black;
+}
+
+tfoot {
+  font-size: 75%;
+  color: black;
+}
+
+caption {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.0em;
+  color: black;
+  border: 2px solid black;
+}
+
+legend {
+  background-color: #222629;
+  color: ghostwhite;
+  padding: 10px;
+  width: 50%;
+  clear:both;
+  margin: 0 auto;
+}
+
+
+    /* Height for devices larger than 576px */
+    @media (min-width: 992px) {
+      #introCarousel {
+        margin-top: -58.59px;
+      }
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 50vh;
+      }
+    }
+    .headertext {
+      font-family: 'Cormorant SC', serif;
+      text-transform:uppercase;
+      text-shadow: 2px 2px black;
+    
+    }
+    .navbar .nav-link {
+      color: #fff !important;
+    }
+
+    footer {
+      text-align:center;
+    
+    }
+    .socialmedia img {
+      max-width: 50px;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      margin: 30px auto;
+    }
